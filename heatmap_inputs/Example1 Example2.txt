@@ -1,0 +1,47 @@
+########################################
+# Program: stretcher
+# Rundate: Sat  9 Jan 2021 23:26:08
+# Commandline: stretcher
+#    -auto
+#    -stdout
+#    -asequence emboss_stretcher-I20210109-232949-0811-43261858-p2m.asequence
+#    -bsequence emboss_stretcher-I20210109-232949-0811-43261858-p2m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 1
+#    -gapextend 1
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: EMBOSS_001
+# Matrix: EBLOSUM62
+# Gap_penalty: 1
+# Extend_penalty: 1
+#
+# Length: 88
+# Identity:      80/88 (90.9%)
+# Similarity:    81/88 (92.0%)
+# Gaps:           2/88 ( 2.3%)
+# Score: 475
+# 
+#
+#=======================================
+
+EMBOSS_001         1 PPVCGNELLEVGEECDCGTPENCQNXCCDAATCKLKSGSQCGHXDCCEQC     50
+                     ||||||||||||||||||||||||| ||||||||||||||||| ||||||
+EMBOSS_001         1 PPVCGNELLEVGEECDCGTPENCQNECCDAATCKLKSGSQCGHGDCCEQC     50
+
+EMBOSS_001        51 KFTKSGTECRASMSECDPAEHCTGQSXXC-XXDVFHKN     87
+                     ||:|||||||||||||||||||||||  |   ||||||
+EMBOSS_001        51 KFSKSGTECRASMSECDPAEHCTGQSSECPA-DVFHKN     87
+
+
+#---------------------------------------
+#---------------------------------------
